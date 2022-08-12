@@ -7,15 +7,15 @@
 
 ## Подготовка сервера
 
-# Обновляем репозитории
+### Обновляем репозитории
 
 `sudo apt update && sudo apt upgrade -y`
 
-# Устанавливаем необходимые утилиты
+### Устанавливаем необходимые утилиты
 
 `sudo apt install curl build-essential git wget jq make gcc tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y`
 
-# Устанавливаем Go
+### Устанавливаем Go
 
 ```
 На примере версии go1.18.3
