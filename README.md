@@ -15,6 +15,8 @@ ID сети: bitsong-2b
 
 `sudo apt install curl build-essential git wget jq make gcc tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y`
 
+Устанавливаем Go
+
 ```
 На примере версии go1.18.3
 
@@ -42,3 +44,27 @@ go version
 На выходе должны получить такое значение:
 "go version go1.18.3 linux/amd64"
 ```
+## Установка ноды
+
+Ставим бинарник
+
+```
+cd $HOME
+git clone https://github.com/bitsongofficial/go-bitsong
+cd go-bitsong
+git checkout v0.11.0
+make install
+```
+
+Проверяем версию
+
+`bitsongd version`
+
+Инициализируем ноду
+
+`bitsongd init <your_custom_moniker>`
+
+Меняем минимальную цену за газ в файле `~/.bitsongd/config/app.toml`
+
+`minimum-gas-prices = "0.0025ubtsg"`
+
