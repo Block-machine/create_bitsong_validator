@@ -1,16 +1,18 @@
-#Гайд по созданию валидтора в основной сети Bitsong
+# Гайд по созданию валидтора в основной сети Bitsong
 
 Ссылка на эксплорер https://explorebitsong.com/bitsong
 Демон - bitsongd
 ID сети: bitsong-2b
 Официальная инструкция: https://docs.bitsong.io/blockchain/create-validator
 
-##Подготовка сервера
+## Подготовка сервера
 
 Обновляем репозитории
+
 `sudo apt update && sudo apt upgrade -y`
 
 Устанавливаем необходимые утилиты
+
 `sudo apt install curl build-essential git wget jq make gcc tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y`
 
 ```
