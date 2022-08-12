@@ -1,6 +1,6 @@
 # Гайд по созданию валидтора в основной сети Bitsong
 
-Ссылка на эксплорер https://explorebitsong.com/bitsong
+[Ссылка на эксплорер] (https://explorebitsong.com/bitsong)
 Демон - bitsongd
 ID сети: bitsong-2b
 Официальная инструкция: https://docs.bitsong.io/blockchain/create-validator
